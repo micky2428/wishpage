@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>許願樹</title>
+</head>
+<body>
+    <div class="container">
+        <h1>請寫下您的願望</h1>
+        <div class="wish-form">
+            <label for="name">您的名字：</label>
+            <input type="text" id="name" placeholder="請輸入您的名字">
+            <label for="wish">您的願望：</label>
+            <textarea id="wish" placeholder="請輸入您的願望"></textarea>
+            <button onclick="makeWish()">許願</button>
+        </div>
+        <div class="wish-list" id="wishList">
+            <div class="card-container">
+                <!-- 願望卡片將顯示在這裡 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
